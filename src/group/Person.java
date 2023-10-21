@@ -11,8 +11,8 @@ package group;
 public class Person {
     
 private int id;
-private String firstName;
-private String lastName;
+protected String firstName;
+protected String lastName;
 private String email;
 
 // Contructors to initialize person's information

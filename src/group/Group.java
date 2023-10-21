@@ -52,7 +52,7 @@ public class Group {
     public void printGroup() {
         System.out.println("Group Name:" + name);
         System.out.println("Group Members: ");
-        for (Sring member : members) {
+        for (Object member : members) {
             System.out.println(member);   
         }
         
